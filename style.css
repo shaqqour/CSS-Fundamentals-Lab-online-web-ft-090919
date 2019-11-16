@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  background: rgb(236, 205, 207, 0.9);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14.5px;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#details {
+  display: block;
+}
+
+section > div {
+  float: left;
+  text-align: center;
+  background-color: rgba(245, 235, 100, 0.9);
+  width: 25%;
+}
